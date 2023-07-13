@@ -517,11 +517,14 @@
 
           pendo.initialize({
             visitor: {
-              id: visitor || 'VISITOR-UNIQUE-ID',
-              role: role || 'user',
+              // id: visitor || 'VISITOR-UNIQUE-ID',
+              // role: role || 'user',
+              id: "jonathan.kila@pendo.io",
+              role: "admin",
             },
             account: {
-              id: account_id || 'ACCOUNT-UNIQUE-ID',
+              // id: account_id || 'ACCOUNT-UNIQUE-ID',
+              id: "pendo",
             },
           });
         })('YOUR-PENDO-API-KEY-HERE');
